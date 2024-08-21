@@ -23,7 +23,7 @@ router.delete('/users/:id', userController.deleteUser);
 router.post('/users/:userId/friends/:friendId', userController.addFriend);
 
 // DELETE to remove a friend from a user's friend list
-router.delete('/users/:userId/friends/:friendId', userController.removeFriend);
+router.delete('/users/:userId/friends/:friendId', userController.deleteFriend);
 
 // Thought Routes
 
